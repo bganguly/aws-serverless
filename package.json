@@ -10,6 +10,7 @@
     "build:frontend": "npm --prefix frontend run build",
     "preview:frontend": "npm --prefix frontend run preview",
     "where": "./scripts/where-am-i.sh",
+    "env": "./scripts/manage-aws-env.sh",
     "deploy": "./scripts/deploy-backend.sh",
     "remove": "./scripts/remove-backend.sh"
   }
